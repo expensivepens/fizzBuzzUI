@@ -3,3 +3,16 @@
     justify-content: center;
     align-content: center;
 }
+
+.ui{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
