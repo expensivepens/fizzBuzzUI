@@ -13,5 +13,5 @@ function generate(){
         } else {
             clearInterval(intervalId);
         }
-    } , 200);
+    } , 150);
 }
