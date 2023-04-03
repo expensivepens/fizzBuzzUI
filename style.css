@@ -6,6 +6,23 @@ h1{
     text-align: center;
 }
 
+.fizz{
+    color: blue;
+    transition: 0.4s;
+    cursor: default;
+}
+
+.fizz:hover{
+    margin-right: 20px;
+    color: white;
+}
+
+.buzz{
+    color: green;
+}
+
+.
+
 .title{
     display: flex;
     justify-content: center;
