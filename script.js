@@ -15,3 +15,4 @@ function generate(){
         }
     } , 150);
 }
+// IF I CLICK ON GENERATE SEVERAL TIMES BEFORE IT ENDS IT GOES CRAZY

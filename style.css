@@ -11,24 +11,24 @@ h1{
     font-size: 50px;
 }
 
-.title-fizz{
+.fizz{
     color: blue;
     transition: 0.4s;
     cursor: default;
 }
 
-.title-fizz:hover{
+.fizz:hover{
     margin-left: -20px;
     margin-right: 20px;
-    color: white;
+    color: rgba(0, 0, 255, 0);
 }
 
-.title-buzz{
+.buzz{
     color: green;
     cursor: default;
 }
 
-.title-buzz:hover{
+.buzz:hover{
     animation: vibrate 50ms linear infinite forwards;
     display: inline-block;
 }
@@ -48,16 +48,15 @@ h1{
     align-content: center;
 }
 
-.description-fizz{
-    color: blue;
-}
-
-.description-buzz{
-    color: green;
+.description-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description{
-    margin: 20px 300px;
+    width: 340px;
+    margin: 20px 0;
 }
 
 .description p{
@@ -80,7 +79,7 @@ label{
     text-align: center;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 input{
