@@ -8,10 +8,11 @@ function generate(){
     if (intervalId){
         clearInterval(intervalId);
     }
+    let finalNumber = numberInput.value;
     let count = 1;
     elPara.innerHTML = "";
         intervalId = setInterval(() =>{
-            if (count <= numberInput.value){
+            if (count <= finalNumber){
                 elPara.innerHTML = elPara.innerHTML + count + " ";
                 count ++;
             } else {
@@ -19,4 +20,3 @@ function generate(){
             }
         } , 150);
 }
-// IF I CLICK ON GENERATE SEVERAL TIMES BEFORE IT ENDS IT GOES CRAZY
