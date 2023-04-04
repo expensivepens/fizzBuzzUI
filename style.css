@@ -136,3 +136,70 @@ button:active{
     align-items: center;
 }
 
+@media(max-width: 400px){
+    .fizz{
+        color: blue;
+        transition: 0.4s;
+        cursor: default;
+    }
+    
+    .fizz:hover{
+        margin-left: 0;
+        margin-right: 0;
+        color: blue;
+    }
+
+    .fizz:active{
+        margin-left: -5px;
+        margin-right: 5px;
+        color: rgba(0, 0, 255, 0);
+    }
+    
+    .buzz{
+        color: green;
+        cursor: default;
+    }
+    
+    .buzz:hover{
+        animation: none;
+        display: inline-block;
+    }
+
+    .buzz:active{
+        animation: vibrate 50ms linear infinite forwards;
+        display: inline-block;
+    }
+
+    .description{
+        width: 350px;
+        margin: 20px 0;
+        border: solid 1px rgba(0, 0, 0, 0.123);
+        padding: 5px;
+        transition: 0.25s;
+        background-color: white;
+    }
+    
+    .description p{
+        font-size: 11px;
+        font-weight: 400;
+        margin: 0;
+        text-align: justify;
+        transition: 0.15s;
+    }
+    
+    .description:hover{
+        width: 350px;
+    }
+
+    .description:active{
+        width: 500px;
+    }
+    
+    .description:hover p{
+        font-size: 11px;
+    }
+
+    .description:active p{
+        font-size: 18px;
+    }
+}
