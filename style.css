@@ -102,8 +102,20 @@ button{
     margin-top: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: rgb(231, 231, 231);
+    border-style: none;
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+button:active{
+    background-color: rgb(179, 179, 179);
+}
 .display-numbers{
     text-align: center;
 }
