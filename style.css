@@ -11,28 +11,24 @@ h1{
     font-size: 50px;
 }
 
-.fizz{
+.title-fizz{
     color: blue;
     transition: 0.4s;
     cursor: default;
 }
 
-.fizz:hover{
+.title-fizz:hover{
     margin-left: -20px;
     margin-right: 20px;
     color: white;
 }
 
-.fizz:hover .buzz{
-    color: black;
-}
-
-.buzz{
+.title-buzz{
     color: green;
     cursor: default;
 }
 
-.buzz:hover{
+.title-buzz:hover{
     animation: vibrate 50ms linear infinite forwards;
     display: inline-block;
 }
@@ -50,6 +46,25 @@ h1{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.description-fizz{
+    color: blue;
+}
+
+.description-buzz{
+    color: green;
+}
+
+.description{
+    margin: 20px 300px;
+}
+
+.description p{
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+    text-align: justify;
 }
 
 .ui{
@@ -78,7 +93,7 @@ button{
     font-weight: 500;
 }
 
-p{
+.display-numbers{
     text-align: center;
 }
 
