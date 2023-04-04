@@ -12,22 +12,15 @@ function generate(){
     let count = 1;
     elPara.innerHTML = "";
         intervalId = setInterval(() =>{
-            if (count <= finalNumber){
-                if(count % 3 === 0 && count % 5 === 0){
-                    elPara.innerHTML = elPara.innerHTML + "<span class= \"fizz\">Fizz</span><span class=\"buzz\">Buzz</span> ";
-                    count ++;
-                } else if(count % 3 === 0){
-                    elPara.innerHTML = elPara.innerHTML + "<span class= \"fizz\">Fizz</span> ";
-                    count ++;
-                } else if (count % 5 === 0){
-                    elPara.innerHTML = elPara.innerHTML + "<span class=\"buzz\">Buzz</span> ";
-                    count ++;
-                } else {
-                    elPara.innerHTML = elPara.innerHTML + count + " ";
-                    count ++;
-                }                    
+            if (count <= finalNumber){       
+                let output = "";       
+                if (count % 3 === 0) output += "<span class= \"fizz\">Fizz</span>";
+                if (count % 5 === 0) output += "<span class=\"buzz\">Buzz</span>";
+                elPara.innerHTML += (output || count) + " ";
+                count ++;
             } else {
                 clearInterval(intervalId);
             }
         } , 150);
 }
+
