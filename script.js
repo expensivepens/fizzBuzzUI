@@ -8,7 +8,7 @@ function generate(){
     elPara.innerHTML = "";
     let intervalId = setInterval(() =>{
         if (count <= numberInput.value){
-            elPara.innerHTML = elPara.innerHTML + count + "<br>";
+            elPara.innerHTML = elPara.innerHTML + count + " ";
             count ++;
         } else {
             clearInterval(intervalId);

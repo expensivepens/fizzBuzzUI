@@ -116,7 +116,15 @@ button:hover{
 button:active{
     background-color: rgb(179, 179, 179);
 }
+
 .display-numbers{
-    text-align: center;
+    max-width: 400px;
+    text-align: justify;
+}
+
+.numbers-paragraph-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
