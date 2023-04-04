@@ -104,17 +104,18 @@ button{
     font-weight: 500;
     font-size: 20px;
     padding: 10px 25px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(222, 233, 255);
     border-style: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(204, 220, 253);
 }
 
 button:active{
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(186, 209, 255);
 }
 
 .display-numbers{
