@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -17,12 +18,32 @@ h1{
 }
 
 .fizz:hover{
+    margin-left: -20px;
     margin-right: 20px;
     color: white;
 }
 
+.fizz:hover .buzz{
+    color: black;
+}
+
 .buzz{
     color: green;
+    cursor: default;
+}
+
+.buzz:hover{
+    animation: vibrate 50ms linear infinite forwards;
+    display: inline-block;
+}
+
+@keyframes vibrate{
+    0% {
+        transform: translateX(-1px) translateY(1px);
+    }
+    100% {
+        transform: translateX(1px) translateY(-2px);
+    }
 }
 
 .title{
@@ -60,3 +81,4 @@ button{
 p{
     text-align: center;
 }
+
