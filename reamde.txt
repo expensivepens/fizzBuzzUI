@@ -1,0 +1,9 @@
+things I learned :
+-a bit about animations in css
+-took some code from somewhere else for the first time
+-made me work a bit on typography and styling a paragraph
+-made me think about design in general
+-made me learn about timers in JS with the setInterval function,
+it made me learn a bit about asynchronous JS (look up the course about that that I read before) because of the loop problem
+-it made try to use ChatGPT in a useful way without cheating
+-thought about optimizing the fizzbuzz algo and went back to eloquent JS => write down what it made me learn exactly.

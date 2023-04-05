@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: rgb(251, 251, 251);
+    background-color: white;
 }
 
 .title{
@@ -58,7 +58,6 @@ h1{
 .description{
     width: 350px;
     margin: 20px 0;
-    border: solid 1px rgba(0, 0, 0, 0.123);
     padding: 5px;
     transition: 0.25s;
     background-color: white;
