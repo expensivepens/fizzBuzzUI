@@ -169,13 +169,23 @@ button:active{
         display: inline-block;
     }
 
+    .description-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .description{
         width: 350px;
         margin: 20px 0;
-        border: solid 1px rgba(0, 0, 0, 0.123);
         padding: 5px;
         transition: 0.25s;
         background-color: white;
+    }
+
+    .da, .db{
+        display: none;
     }
     
     .description p{
